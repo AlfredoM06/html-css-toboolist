@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:  white;
+    width: auto;
+    height: auto;
+    box-shadow: 10px 10px 30px grey;
+    border-style: outset;
+    border-width: 5px;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgb(105, 105, 105);
+}
+
+.container-list {
+    margin: 3px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgb(105, 105, 105);
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(219, 218, 218);
+}
+.circle-red {
+    color: red;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 50%;
+    margin: 5px 10px 5px 0;
+    font-size: small;
+    padding: 2px 3px 2px 3px; 
+}
+
+.circle-green {
+    color: green;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: green;
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px 10px 5px 0;
+    font-size: small;
+    padding:2px 3px 2px 3px;
+}
+
+.box-1 {
+    width:80px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 10%;
+    margin: 5px 0 5px 60px;
+    text-align: center;
+    line-height: 30px;
+    background-color: aqua;
+}
+
+.box-2 {
+    width:100px;
+    height:30px;
+    display: inline-block;
+    border-color: rgb(192, 189, 189);
+    border-style: ridge;
+    border-width: 1px;
+    border-radius: 10%;
+    margin: 5px 0 5px 5px;
+    text-align: center;
+    line-height: 30px;
+}
+
+p {
+    padding: 10px 0 10px 0;
+}
+
+.icons {
+    padding:1px 3px 1px 3px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 27%;
+    margin: 5px 0 5px 5px;
+    text-align: center;
+    line-height: 20px;
+    color:white;
+    font-size: x-small;
+}
+.editorial-icon {
+    background-color: blue;
+}
+
+.q1-icon {
+    background-color: blueviolet;
+}
+
+.recruite-icon {
+    background-color: aquamarine;
+}
+
+.mobile-icon {
+    background-color: chocolate;
+}
+
+.web-icon {
+    background-color: darkorchid;
+}
+
+.sales-icon {
+    background-color: chartreuse;
+}
+
+.titles {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
